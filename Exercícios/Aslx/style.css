@@ -1,0 +1,90 @@
+:root {
+    --cor0:#FF3E14;
+    --cor1:#DB211A;
+    --cor2:#F04737;
+    --cor3:#FA555B;
+    --cor4:#DB7A6B;
+}
+
+body {
+    background-color: rgb(34, 32, 32);
+}
+
+header {
+    color: rgb(197, 196, 196);
+    background-image: linear-gradient(75deg, var(--cor0), var(--cor2), var(--cor3), var(--cor4));
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 760px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-size: 50px;
+    text-shadow: 0.5px 2.5px 0.5px rgb(51, 29, 29);
+    margin-bottom: -20px;
+}
+
+div#seta {
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+    padding-right: 370px;
+    padding-top: -300px;
+}
+
+div#seta2 {
+    font-size:18px
+}
+
+div#seta2 {
+    padding: -100px 0px -100px 0px;
+}
+
+div#seta:hover > div#seta2 {
+    display:block;
+}
+
+div#seta:hover {
+    color: white;
+    font-size: 22px;
+    text-shadow: 2px 2px 2px black;
+    transition-duration: 2s;
+}
+h2 {
+    background-image: linear-gradient(75deg, var(--cor0), var(--cor2), var(--cor3), var(--cor4));
+    color: rgb(228, 230, 232);
+    text-align: start;
+    font-size: 18px;
+    margin-top: 130px;
+    transition-duration: 1s;
+}
+
+h2#contato:hover {
+    color: blue;
+}
+
+main {
+    padding-top: 100px;
+}
+
+div.video {
+    background-color: #DB211A;
+    padding: 10px;
+    padding-bottom: 58%;
+    position:relative;
+    padding-left: 230%;
+    padding-right: 100%;
+
+}
+
+div.video > iframe {
+    position:absolute;
+    top:10%;
+    left:10%;
+    width: 60%;
+    height: 70%;
+}
